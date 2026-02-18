@@ -62,10 +62,12 @@
 - Step 29 : Following DAX expression was written for the same.
   
  
-			      Previous_year_sales = CALCULATE([Total_Sales], SAMEPERIODLASTYEAR('Date Table'[Date].[Date]))
+			      		Previous_year_sales = CALCULATE([Total_Sales], SAMEPERIODLASTYEAR('Date Table'[Date].[Date]))
        
 
 - Step 30 : Implemented a card visual to show previous year sales and added a slicer for dynamic year-based filtering.
+
+  				
 
 			
 - Step 31 : Developed a DAX measure to calculate Profit Margin, enabling evaluation of product and business profitability.
@@ -73,6 +75,8 @@
 			       Profit_margin % = DIVIDE([Total_Profit], [Total_Sales], 0)
 
 - Step 32 : Implemented a card visual to show Profit_margin %
+
+  					<img width="250" height="113" alt="Image" src="https://github.com/user-attachments/assets/c3521dec-9aa4-422a-ae2b-6c6be9e15e9c" />
 
 
 - Step 33 : In the Regional Analysis report, visualized Total Orders by region using a donut chart for clear regional comparison.
