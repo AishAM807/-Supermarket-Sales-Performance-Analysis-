@@ -65,10 +65,8 @@
        
 
 - Step 30 : Implemented a card visual to show previous year sales and added a slicer for dynamic year-based filtering.
-
+<img width="533" height="155" alt="Image" src="https://github.com/user-attachments/assets/e799fee3-4cc4-4da3-8744-ebf31f1e2645" />
   				
-
-			
 - Step 31 : Developed a DAX measure to calculate Profit Margin, enabling evaluation of product and business profitability.
 
 			       Profit_margin % = DIVIDE([Total_Profit], [Total_Sales], 0)
