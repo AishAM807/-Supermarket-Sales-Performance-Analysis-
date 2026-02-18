@@ -13,7 +13,7 @@
 - Step 2 : Open Power Query editor & in the View tab under the Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, the profile will be opened only for 1000 rows, you need to select "column profiling based on entire dataset".
 - Step 4 : It was observed that in none of the columns errors & empty values were present, except in the column "Customer Id". Changed the data type of column named "Sales", 	   "Order Date", "Ship Date"
-- Step 5 : Developed a custom Date Table using DAX and enriched it with calculated columns (e.g., Year, Month, Quarter) to enable time-intelligence reporting and trend 	   analysis.
+- Step 5 : Developed a custom Date Table using DAX and enriched it with calculated columns (e.g., Year, Month, Quarter) to enable time-intelligence reporting and trend analysis.
 - Step 6 : for creating "Date Table" following DAX expression was written;
 
 			Date Table = CALENDAR(MIN('Sales Data'[Order Date]), MAX('Sales Data'[Order Date]))
@@ -61,8 +61,7 @@
 - Step 28 : Implemented a DAX measure to evaluate previous year sales, enabling year-over-year performance analysis and trend insights.
 - Step 29 : Following DAX expression was written for the same.
   
- 
-			      		Previous_year_sales = CALCULATE([Total_Sales], SAMEPERIODLASTYEAR('Date Table'[Date].[Date]))
+  						Previous_year_sales = CALCULATE([Total_Sales], SAMEPERIODLASTYEAR('Date Table'[Date].[Date]))
        
 
 - Step 30 : Implemented a card visual to show previous year sales and added a slicer for dynamic year-based filtering.
