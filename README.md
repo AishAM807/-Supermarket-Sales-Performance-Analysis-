@@ -84,6 +84,11 @@
 - Step 36 : Created a column chart to represent Delivery Days by region and segment,
 
  # Report Snapshot (Power BI DESKTOP)
+ <img width="875" height="492" alt="Image" src="https://github.com/user-attachments/assets/f9bd4fe6-4403-4838-85ab-f9bbc58cdfc4" />
+
+ <img width="880" height="491" alt="Image" src="https://github.com/user-attachments/assets/fa854500-59b2-4141-9031-4e4386caff7a" />
+
+ <img width="857" height="486" alt="Image" src="https://github.com/user-attachments/assets/1ac815a6-b506-418d-938e-8dc152fec295" />
 
 # Insights:
 
